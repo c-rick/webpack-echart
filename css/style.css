@@ -1,0 +1,227 @@
+
+body{background: #1f252c;margin:0;color:#fff;height: 100%;font-size:14px;box-sizing: border-box;-webkit-box-sizing: border-box;}
+.dataForm{display: inline-block;vertical-align: middle;position: relative;width: 2400px;padding: 50px;}
+.rform{display: inline-block;vertical-align: bottom;}
+.Lform{width: 2080px}
+.dataForm header strong{font-size: 36px;}
+.dataForm header p{font-size: 24px;}
+a{text-decoration: none;}
+#multi3{width: 302px;position: absolute;right: 50px;top: 200px;}
+section{padding: 5px;box-sizing: border-box;-webkit-box-sizing: border-box;display: inline-block;vertical-align: top;}
+li{list-style: none;}
+.EC_fontW{font-weight: 700;}
+.EC_Ranking{width: 273px;}
+.EC_Ranking .logo{width: 100%;margin-bottom: 40px;}
+.cpBtn a{display: inline-block;width: 35%;margin: 5%;font-size:14px;border:1px solid #fff;text-align: center;line-height: 40px;color:#fff;border-radius: 10px;text-decoration: none;}
+.cpBtn a.active{background: #0074ff;}
+.title{margin-bottom: 20px ;font-size: 20px;}
+.Btn{float: right;background: url(../img/btn.png) no-repeat;background-size: 100% 100%}
+.Btn a{display: inline-block;width: 15px;height: 20px;}
+.EC_progress{padding: 0;margin: 0;}
+.EC_progress li{margin: 5px 0;width: 100%;}
+.EC_progress li p{margin-bottom: 5px;font-size: 18px; }
+.EC_progress li progress{
+	width: 100%;border-radius: 20px;
+	border: 1px solid #000002;
+	background-color:#000002;
+	color: #69e8ff;  /*背景色(已经完成的进度) IE的高版本*/
+}
+progress::-moz-progress-bar { background: #69e8ff;border-radius: 20px;}
+progress::-webkit-progress-bar { background: #000002;border-radius: 20px; }
+progress::-webkit-progress-value  { background: #69e8ff; border-radius: 20px;}                          
+.progressId{color: #0074ff;margin-right:5px;font-size: 28px;}
+.progressVal{float: right;line-height: 40px;}
+ie {
+    height:100%;
+    width:0%;
+    display:block;
+    background:blue;
+}
+#carbtn{padding: 5px;box-sizing: border-box;}
+#carbtn nav{color: #fff;font-size: 22px;margin-top: 0;font-weight: bolder;}
+#carbtn a{display: inline-block;width: 30%;margin: 5%;color: #fff;border-radius: 10px;text-align: center;font-size: 20px;font-weight: bold;text-decoration: none;}
+#carbtn a p{margin: 5px 0;}
+
+.EC_border{display:inline-block;border-radius: 10px;position:relative;display:inline-block;vertical-align: top;}
+.weatherToday{width: 100%;height: 60%;position: relative;padding: 20px 5px;border-bottom: 1px solid #fff;color:#03e9b5;}
+.weatherToday>div{display: inline-block;width: 49%;box-sizing: border-box;padding: 0 20px;vertical-align: middle;}
+.weatherToday>div:last-child{text-align: right;font-size: 88px;}
+.weatherToday p{margin: 5px;}
+.weatherToday strong{font-size: 50px; font-weight: bolder;color: #fff;}
+.weatherOther{font-size: 0;padding: 5px;width: 100%;color:#03e9b5;}
+.weatherOther div{display: inline-block;font-size: 14px;width: 25%;text-align: center;}
+.weatherOther div strong{font-size: 30px;display: block;}
+.weatherOther p{margin: 5px;}
+.weatherToday .wendu,.weatherOther .wendu{position: relative;color:#fff;}
+.weatherToday .wendu:before{content:'o';position:absolute;font-size: 30px;top: 0;right: 10px;z-index: 9;}
+.weatherOther .wendu:before{content:'o';position:absolute;top: -3px;z-index: 9;font-size: 12px;right: -1px;}
+
+.mapHeader{position: absolute;top:10px;width: 100%;text-align: center;}
+.mapHeader span{margin-right: 5px;}
+.mapSearch{display: inline-block;width: 150px;border:1px solid #fff;border-radius: 10px;padding: 2px}
+.mapSearch input{border:none;background: transparent;color:#fff;width: 80%;outline:medium;}
+.mapSearch a{color: #fff;}
+.selectmap{vertical-align: middle;margin-right: 5px;cursor: pointer;}
+.mapHeader i{position: relative;}
+.selectBox{display:none;background:#1f252c;padding:0;position: absolute;right:-30px;border:1px solid #fff;top: 14px;border-radius: 5px;}
+.selectBox:before{content:'';border:10px solid transparent;border-bottom-color:#fff;top: -20px;position: absolute;left: 45px;}
+.selectBox:after{content:'';border:10px solid transparent;border-bottom-color:#1f252c;top: -19px;position: absolute;left: 45px;}
+.selectBox li{padding: 10px;display: inline-block;min-width: 100px;text-align: left;font-size: 13px;}
+.selectBox li.active{color:#69e8ff;}
+
+
+#video{background: #999;position: relative;}
+#video:after{content:"监控画面";width:100px;height: 50px;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;font-size: 20px;}
+/*组件宽度，高度*/
+#column{width:230px;height:503px;}
+#map .mapbody,#othermap .mapbody,#video{width:500px;height:503px;}
+#weather,#park{width:300px;height:250px;}
+#brokenin,#brokenon,#brokenout{width: 360px;height: 250px;}
+#broken{width:430px;height:350px;}
+#carbtn{width:430px;height:350px;}
+#sector{width:655px;height:262px;}
+#pie{width:320px;height: 250px;}
+#columnpro{width:320px;height: 250px;}
+#barmoney{width:300px;height: 250px;}
+#barcomplaint{width: 320px;height: 160px;}
+#piecom,#pieemotion,#pieevaluate{width: 320px;height:120px;}
+#columnkey{width: 320px;height:210px;}
+
+
+
+/*loading*/
+.loader{position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #1f252c;}
+.pacman {
+  position: absolute;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   }
+  .pacman > div:nth-child(2) {
+    -webkit-animation: pacman-balls 1s 0s infinite linear;
+            animation: pacman-balls 1s 0s infinite linear; }
+  .pacman > div:nth-child(3) {
+    -webkit-animation: pacman-balls 1s 0.33s infinite linear;
+            animation: pacman-balls 1s 0.33s infinite linear; }
+  .pacman > div:nth-child(4) {
+    -webkit-animation: pacman-balls 1s 0.66s infinite linear;
+            animation: pacman-balls 1s 0.66s infinite linear; }
+  .pacman > div:nth-child(5) {
+    -webkit-animation: pacman-balls 1s 0.99s infinite linear;
+            animation: pacman-balls 1s 0.99s infinite linear; }
+  .pacman > div:first-of-type {
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-top: 70px solid #fff;
+    border-left: 70px solid #fff;
+    border-bottom: 70px solid #fff;
+    border-radius: 70px;
+    -webkit-animation: rotate_pacman_half_up 0.5s 0s infinite;
+            animation: rotate_pacman_half_up 0.5s 0s infinite; }
+  .pacman > div:nth-child(2) {
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-top: 70px solid #fff;
+    border-left: 70px solid #fff;
+    border-bottom: 70px solid #fff;
+    border-radius: 70px;
+    -webkit-animation: rotate_pacman_half_down 0.5s 0s infinite;
+            animation: rotate_pacman_half_down 0.5s 0s infinite;
+    margin-top: -140px; }
+  .pacman > div:nth-child(3), .pacman > div:nth-child(4), .pacman > div:nth-child(5) {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 2px;
+    position: absolute;
+    -webkit-transform: translate(0, -6.25px);
+        -ms-transform: translate(0, -6.25px);
+            transform: translate(0, -6.25px);
+    top: 70px;
+    left: 200px; }
+
+    @-webkit-keyframes rotate_pacman_half_up {
+  0% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg); }
+
+  50% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+
+  100% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg); } }
+
+@keyframes rotate_pacman_half_up {
+  0% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg); }
+
+  50% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+
+  100% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg); } }
+
+@-webkit-keyframes rotate_pacman_half_down {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); } }
+
+@keyframes rotate_pacman_half_down {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); } }
+
+@-webkit-keyframes pacman-balls {
+  75% {
+    opacity: 0.7; }
+
+  100% {
+    -webkit-transform: translate(-100px, -6.25px);
+            transform: translate(-100px, -6.25px); } }
+
+@keyframes pacman-balls {
+  75% {
+    opacity: 0.7; }
+
+  100% {
+    -webkit-transform: translate(-100px, -6.25px);
+            transform: translate(-100px, -6.25px); } }
+.pacman > div:last-child{
+  margin-left: 11px;
+    font-size: 30px;
+    font-weight: bold;
+}
